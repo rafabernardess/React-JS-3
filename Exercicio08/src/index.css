@@ -1,0 +1,31 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  justify-content: center;
+  color: rgb(50, 111, 168);
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  justify-content: center;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+.card {
+  border: 1px solid #ccc; /* Contorno do cartão */
+  border-radius: 40px; /* Bordas arredondadas */
+  padding: 16px; /* Espaçamento interno */
+  box-shadow: 0 4px 8px rgba(153, 34, 70, 0.1); /* Sombra para um efeito de profundidade */
+  margin: 16px; /* Espaçamento externo */
+  background-color: #fff; /* Cor de fundo */
+}
